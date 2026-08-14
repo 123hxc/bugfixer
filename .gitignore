@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+eggs/
+.eggs/
+wheelhouse/
+*.whl
+
+# 虚拟环境
+venv/
+.venv/
+env/
+ENV/
+
+# 环境变量与密钥（绝不提交）
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 前端
+node_modules/
+frontend/dist/
+src/bugfixer/web/static/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 测试与覆盖率
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# 构建产物
+*.log
+.DS_Store
+Thumbs.db

@@ -147,7 +147,7 @@ Task 13 ──> Task 15 (frontend) ──> Task 16 (integration) ──> Task 17
 
 ---
 
-### Task 1: Project Scaffold
+### Task 1: Project Scaffold ✅ (commit: 9e2a17a)
 
 **Files:**
 - Create: `pyproject.toml`
@@ -155,7 +155,7 @@ Task 13 ──> Task 15 (frontend) ──> Task 16 (integration) ──> Task 17
 - Create: `tests/__init__.py`
 - Create: `tests/conftest.py`
 - Create: `Makefile`
-- Create: `.gitignore`
+- Create: `.gitignore` (already existed)
 - Create: `frontend/.gitkeep`
 
 **Interfaces:**

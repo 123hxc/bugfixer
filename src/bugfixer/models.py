@@ -78,6 +78,8 @@ class Failure(BaseModel):
 
 
 class TestResult(BaseModel):
+    __test__ = False  # prevent pytest from collecting this as a test class
+
     passed: bool
     failures: list[Failure]
     raw_output: str
